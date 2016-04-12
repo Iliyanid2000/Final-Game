@@ -6,15 +6,13 @@ switch (mpos)
         break;
     }
    
-    case 2:
+    case 1:
     {
+        room_goto(rm_levelselect)
         break;
     }
-    case 3:
-    {
-        break;
-    }
-    case 4: game_end(); break;
+    
+    case 2: game_end(); break;
     default: break;
 }
 

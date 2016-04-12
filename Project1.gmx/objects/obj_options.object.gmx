@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu[0] = "Start";
-menu[1] = "Options";
-menu[2] = "Quit";
-
+            <string>menu[0] = "Back To Main Menu";
+menu[1] = "Full Screen On";
+menu[2] = "Full Screen Off";
+menu[3] = "Quit";
 
 space = 64;
 mpos = 0;
@@ -67,7 +67,7 @@ if (move !=0)
 
 var push;
 push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_shift),keyboard_check_released(vk_space), 0);
-if (push == 1) scr_startmenu();
+if (push == 1) scr_options();
 </string>
           </argument>
         </arguments>

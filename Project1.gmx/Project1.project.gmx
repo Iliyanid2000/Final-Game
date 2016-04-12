@@ -12,12 +12,14 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_startmenu.gml</script>
+    <script>scripts\scr_options.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_start</object>
+    <object>objects\obj_options</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
