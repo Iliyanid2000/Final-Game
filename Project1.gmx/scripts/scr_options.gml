@@ -16,8 +16,13 @@ switch (mpos)
          window_set_fullscreen(false);
          break;
     }
+    case 3:
+    {
+         
+         break;
+    }
  
-   exit; case 3: game_end(); break;
+   exit; case 4: game_end(); break;
     default: break;
 
 }

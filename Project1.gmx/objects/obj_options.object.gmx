@@ -28,7 +28,8 @@
             <string>menu[0] = "Back To Main Menu";
 menu[1] = "Full Screen On";
 menu[2] = "Full Screen Off";
-menu[3] = "Quit";
+menu[3] = "Empty";
+menu[4] = "Quit"
 
 space = 64;
 mpos = 0;

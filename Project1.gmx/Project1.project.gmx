@@ -20,6 +20,9 @@
   <objects name="objects">
     <object>objects\obj_start</object>
     <object>objects\obj_options</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_playergun</object>
+    <object>objects\obj_bullit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
